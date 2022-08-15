@@ -20,6 +20,7 @@ function createImgMarkup(galleryItems) {
           class="gallery__image"
           src="${preview}"
           alt="${description}"
+          title="${description}"
         />
       </a>`;
     })
