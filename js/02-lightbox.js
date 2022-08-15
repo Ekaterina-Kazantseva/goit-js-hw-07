@@ -34,7 +34,7 @@ function onGalleryClick(event) {
 
 //изображение обернуто в ссылку, а значит при клике по умолчанию пользователь будет перенаправлен на другую страницу. Запрети это поведение по умолчанию.
     event.preventDefault();
-    if (!ImgEl.classList.contains("gallery__image")) {
+    if (!ImgEl.classList.contains('gallery__image')) {
         return;
     }
 
